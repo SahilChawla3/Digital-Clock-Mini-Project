@@ -1,0 +1,77 @@
+#first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.clock{
+    width: 60vw;
+    height: 50vh;
+    background-color: rgb(92, 187, 225);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.creative{
+    width: 5vw;
+    height: 10vh;
+    background-color: black;
+    color: rgb(10, 205, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+}
+
+.fulldate{
+    width: 18vw;
+    height: 10vh;
+    background-color: black;
+    color: rgb(10, 205, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+}
+.semicolon{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+@media screen and (max-width:800px) {
+    .clock{
+        width: 50vw;
+        height: 60vh;
+    }
+    .creative{
+        width: fit-content;
+        height: fit-content;
+    }
+    .fulldate{
+        width: fit-content;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .clock{
+        width: 45vw;
+        height: 70vh;
+    }
+    .creative{
+        width: fit-content;
+        height: fit-content;
+    }
+    .fulldate{
+        width: fit-content;
+        height: fit-content;
+    }
+}
